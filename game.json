@@ -492,6 +492,51 @@
         "name": "sky01.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fence2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fence3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fecneMulti1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fecneMulti1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fecneMulti12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fecneMulti12.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -507,6 +552,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
     }
   ],
   "externalEvents": [],

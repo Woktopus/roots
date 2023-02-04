@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6227750346325635,
+    "zoomFactor": 1.6152785971213148,
     "windowMask": false
   },
   "objectsGroups": [
@@ -146,8 +146,8 @@
       "name": "NewTiledSprite",
       "persistentUuid": "42acc5c5-134d-4e28-9736-f2a6b7793d42",
       "width": 210,
-      "x": 575,
-      "y": 236,
+      "x": 570,
+      "y": 233,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,6 +239,151 @@
       "x": 1364,
       "y": -39,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 37,
+      "layer": "",
+      "name": "fence2",
+      "persistentUuid": "b5fc3524-73f8-41ee-b4a9-12559d9e4d84",
+      "width": 122,
+      "x": -33,
+      "y": -37,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 37,
+      "layer": "",
+      "name": "fence2",
+      "persistentUuid": "f079c9e0-fa14-4762-a5d6-bda1207ab118",
+      "width": 122,
+      "x": 85,
+      "y": -37,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 37,
+      "layer": "",
+      "name": "fence2",
+      "persistentUuid": "11995006-cc5e-4098-8b32-3ab3e68fa6b3",
+      "width": 122,
+      "x": 321,
+      "y": -37,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 37,
+      "layer": "",
+      "name": "fence2",
+      "persistentUuid": "3b1ddcda-f26d-4230-b21f-11da80c5e04f",
+      "width": 122,
+      "x": 203,
+      "y": -37,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "name": "fence2Side",
+      "persistentUuid": "9ddfc5e8-e0a0-4cd5-9327-b3633005c05c",
+      "width": 113,
+      "x": -74,
+      "y": 3,
+      "zOrder": 15,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "name": "fence2Side",
+      "persistentUuid": "170c757c-c40e-4288-b11c-c572e55e6c96",
+      "width": 113,
+      "x": -74,
+      "y": 114,
+      "zOrder": 15,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "fence2",
+      "persistentUuid": "dcc9321f-768c-4778-9dad-eee2f2366d4b",
+      "width": 0,
+      "x": 574,
+      "y": 448,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "fence2Side",
+      "persistentUuid": "baa77554-6d6a-4f10-b295-e9193eb7e014",
+      "width": 0,
+      "x": 443,
+      "y": 324,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "fence2Side",
+      "persistentUuid": "3f2544ea-5b8f-4993-953c-a11ba0938d65",
+      "width": 0,
+      "x": 642,
+      "y": 328,
+      "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1181,6 +1326,174 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "fence",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoardProjection",
+          "type": "WithThreeJS::BoardProjection",
+          "Id": "",
+          "FirstFrame": true,
+          "CurrentTextureId": "",
+          "ProjectionScale": 1,
+          "ViewMode": "Top Down",
+          "Hide": true,
+          "AlphaTest": 0.5,
+          "AntiAliasing": false,
+          "AngleAxis": "Z Axis",
+          "Orientation": "Vertical"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fence3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "fence2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoardProjection",
+          "type": "WithThreeJS::BoardProjection",
+          "Id": "",
+          "FirstFrame": true,
+          "CurrentTextureId": "",
+          "ProjectionScale": 1,
+          "ViewMode": "Top Down",
+          "Hide": true,
+          "AlphaTest": 0.5,
+          "AntiAliasing": false,
+          "AngleAxis": "Z Axis",
+          "Orientation": "Vertical"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fecneMulti12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "fence2Side",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoardProjection",
+          "type": "WithThreeJS::BoardProjection",
+          "Id": "",
+          "FirstFrame": true,
+          "CurrentTextureId": "",
+          "ProjectionScale": 1,
+          "ViewMode": "Top Down",
+          "Hide": true,
+          "AlphaTest": 0.5,
+          "AntiAliasing": false,
+          "AngleAxis": "Y Axis",
+          "Orientation": "Vertical"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fecneMulti12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1878,6 +2191,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
       "name": "radis qui se deplace vers camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1920,6 +2234,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
       "name": "carotte qui se deplace vers le joueur",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2289,6 +2604,93 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "camera",
+            "fence",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "camera",
+            "fence",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "camera",
+            "fence2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "camera",
+            "fence2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "camera",
+            "fence2Side",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "camera",
+            "fence2Side",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2316,6 +2718,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "BoardProjection",
+      "type": "WithThreeJS::BoardProjection"
+    },
     {
       "name": "BoxProjectionFromTiled",
       "type": "WithThreeJS::BoxProjectionFromTiled"
