@@ -537,6 +537,183 @@
         "name": "fecneMulti12.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big square stone_Damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Big square stone_Damaged.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Tile Dirt Corner Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4156f6abc374da5c97428471c1ff70fbd2b8b6f0b3608220c600b8a38b634075_Graveyard Tile Dirt Corner Right.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/4156f6abc374da5c97428471c1ff70fbd2b8b6f0b3608220c600b8a38b634075_Graveyard Tile Dirt Corner Right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Summer Tile Dirt Corner Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6e3472e5945f57da2a8dad1f625fdec37c9741d26884f768df4327a55fe29336_Summer Tile Dirt Corner Left.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/6e3472e5945f57da2a8dad1f625fdec37c9741d26884f768df4327a55fe29336_Summer Tile Dirt Corner Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/25a026f33b5e093c8924530e3c5d5cb269192d57720b1ae766d8350f1d1f5667_House.png",
+          "name": "House.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arbre1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arbre1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bushes32x32_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bushes32x32_00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bushes32x32_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bushes32x32_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sacred-garden-10377.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sacred-garden-10377.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "water_drop-6707.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "water_drop-6707.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "deadite-ash-vs-evil-dead-song-8688.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "deadite-ash-vs-evil-dead-song-8688.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ble.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mushroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mushroom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "radisgentil (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "radisgentil (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image2.png\"}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrowdown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrowdown.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -547,15 +724,11 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/testbox"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level2"
+      "referenceTo": "/layouts/testbox"
     }
   ],
   "externalEvents": [],
