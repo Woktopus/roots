@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1421744495299455,
+    "zoomFactor": 0.4802252001020587,
     "windowMask": false
   },
   "objectsGroups": [
@@ -8327,85 +8327,6 @@
       ]
     },
     {
-      "assetStoreId": "90cbbb3f06b52fa58138b7263671e5926346a483895cb54d56d56498941076a0",
-      "name": "Bullet1",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "newBullet",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "speedX",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "speedY",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "SpeedZ",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "SpriteProjection",
-          "type": "WithThreeJS::SpriteProjection",
-          "Id": "",
-          "FirstFrame": true,
-          "CurrentTextureId": "",
-          "ProjectionScale": 1,
-          "ViewMode": "Top Down",
-          "Hide": true,
-          "AlphaTest": 0.5,
-          "AntiAliasing": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bullet 1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "fence",
       "tags": "",
@@ -9699,160 +9620,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "TIR",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FireBullet::FireBullet::Fire"
-              },
-              "parameters": [
-                "camera",
-                "FireBullet",
-                "camera.X()",
-                "camera.Y()",
-                "Bullet1",
-                "0",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "water_drop-6707.mp3",
-                "",
-                "50",
-                "1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "newBullet",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "=",
-                    "camera.ZOrder()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ToggleObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "newBullet"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "speedX",
-                    "=",
-                    "WithThreeJS::CameraDirection(\"X\") * 500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "speedY",
-                    "=",
-                    "WithThreeJS::CameraDirection(\"Y\") * 500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Bullet1",
-                    "speedZ",
-                    "=",
-                    "WithThreeJS::CameraDirection(\"Z\") * 500"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Bullet1",
-                "+",
-                "Bullet1.Variable(speedX) * TimeDelta()",
-                "+",
-                "Bullet1.Variable(speedZ) * TimeDelta()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Bullet1",
-                "+",
-                "Bullet1.Variable(speedY) * TimeDelta()"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "jump",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10649,7 +10416,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "5"
+            "3"
           ]
         },
         {
@@ -10658,7 +10425,7 @@
           },
           "parameters": [
             "",
-            "\"testbox\"",
+            "\"level2\"",
             ""
           ]
         }

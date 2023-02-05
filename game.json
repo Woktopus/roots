@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "level1",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -13,8 +13,8 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "58164edc-5824-4f65-b4ee-9e343c5a797b",
-    "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -714,6 +714,273 @@
         "name": "arrowdown.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "eau2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "eau2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "eau2 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "eau2 (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hud.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ferm1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ferm1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ferm2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ferm2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ferm3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ferm3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "ArcadeAlternate.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ArcadeAlternate.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-00062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-00062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_1_eau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_1_eau.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_2_eau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_2_eau.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bet2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bet3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bet4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo-roundup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo-roundup.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "goute.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goute.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pata2t.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pata2t.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "patat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "patat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Bottle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Green Bottle.png\",\"extension\":\".png\"}",
+        "name": "Green Bottle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Other Objects/b66adcc069ab56c11d8595435d6fcf53f7e2e6a901596ebbf482d1287a1d327a_Green Bottle.png",
+          "name": "Green Bottle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Tile Dirt Corner Right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graveyard Tile Dirt Corner Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/4156f6abc374da5c97428471c1ff70fbd2b8b6f0b3608220c600b8a38b634075_Graveyard Tile Dirt Corner Right.png",
+          "name": "Graveyard Tile Dirt Corner Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Tile Dirt Corner Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f5e75ca5b4445d02bf3a5c7fcce11c4039f18a3090ed78de56a9aee10ea6fff5_Graveyard Tile Dirt Corner Left.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/f5e75ca5b4445d02bf3a5c7fcce11c4039f18a3090ed78de56a9aee10ea6fff5_Graveyard Tile Dirt Corner Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dungeon_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dungeon_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dungeon_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dungeon_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_1_roundup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_1_roundup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_2_roundup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_2_roundup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Loaf Of Bread_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3ab07a47c9f93d6a755b661ba1089e874b32517f6ec8eb05a2344c8a4e9d27fc_Loaf Of Bread_Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/3ab07a47c9f93d6a755b661ba1089e874b32517f6ec8eb05a2344c8a4e9d27fc_Loaf Of Bread_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -722,6 +989,10 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
@@ -733,6 +1004,18 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tweenzorder"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"
