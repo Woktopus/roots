@@ -981,6 +981,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/3ab07a47c9f93d6a755b661ba1089e874b32517f6ec8eb05a2344c8a4e9d27fc_Loaf Of Bread_Shadow.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dungeon_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dungeon_12.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
