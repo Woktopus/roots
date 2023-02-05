@@ -1,5 +1,5 @@
 {
-  "firstLayout": "level1",
+  "firstLayout": "splash",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -10,7 +10,7 @@
     "adaptGameResolutionAtRuntime": true,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.woktopus",
     "pixelsRounding": false,
     "projectUuid": "58164edc-5824-4f65-b4ee-9e343c5a797b",
     "scaleMode": "nearest",
@@ -18,12 +18,12 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "woktopus-roots",
-    "description": "",
+    "name": "ROOT",
+    "description": "ROOT doom like with angry vegetable",
     "author": "Woktopus",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\MathieuBriland\\Desktop\\GGJ",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -45,7 +45,10 @@
       "showProgressBar": true
     },
     "authorIds": [],
-    "categories": [],
+    "categories": [
+      "shooter",
+      "action"
+    ],
     "playableDevices": [],
     "extensionProperties": [],
     "platforms": [
@@ -999,6 +1002,449 @@
         "name": "dungeon_12.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Bottle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Green Bottle.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HURT1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HURT1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HURT2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HURT2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HURT3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HURT3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Target round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Target round button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/8d2bd019e1924edce2d42f0c5da207832dda352131314441cc7ad73b4db999f5_Target round button.png",
+          "name": "Target round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Target round button.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Target round button.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "main2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "main2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "main1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "main1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panneau fleche.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panneau fleche.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panneau fleche2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panneau fleche2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "maison.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maison.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panneau zqsd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panneau zqsd.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CACONAVET.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CACONAVET.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CACONAVET2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CACONAVET2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_1_navet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_1_navet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet_2_navet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet_2_navet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bullet_1_navet.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bullet_1_navet.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bullet_1_navet.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bullet_1_navet.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cover_copie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cover_copie.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "06_autumn_night.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "06_autumn_night.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dungeon_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dungeon_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "radis (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "radis (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "radis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "radis.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wall.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ladder2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Desert Tile Dirt Corner Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "164cc185f3d2e64f7fb1b6af8e1ce323e36c55f6ee2764ae256d281cc31b2f56_Desert Tile Dirt Corner Left.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Desert/164cc185f3d2e64f7fb1b6af8e1ce323e36c55f6ee2764ae256d281cc31b2f56_Desert Tile Dirt Corner Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sky02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sky02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "game over.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game over.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PANNEAUE2 copie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PANNEAUE2 copie.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "birds-in-the-morning-24147.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "birds-in-the-morning-24147.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "zombie-5.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "zombie-5.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PANNEAU3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PANNEAU3.png\",\"extension\":\".png\"}",
+        "name": "PANNEAU3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PANNEAU3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PANNEAU3.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PANNEAU32.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PANNEAU32.png\",\"extension\":\".png\"}",
+        "name": "PANNEAU32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PANNEAU33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PANNEAU33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PANNEAU3.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PANNEAU3.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "thunder-25689.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "thunder-25689.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "evil-laughing-89786.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "evil-laughing-89786.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PANNEAU34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PANNEAU34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "terror-ambience-7003.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "terror-ambience-7003.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fichier 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fichier 1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Capture d’écran 2023-02-05 170307.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Capture d’écran 2023-02-05 170307.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1013,15 +1459,31 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/testbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/titre"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/splash"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/tweenzorder"
